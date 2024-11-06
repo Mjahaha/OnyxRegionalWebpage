@@ -1,8 +1,11 @@
 /* Ensure the navbar is light and expands on large screens */
 body {
     background-color: rgb(255, 255, 255);
-    color: #9d8a21;
-    margin: 0px
+    font-style: 'Poppins', 'sans-serif';
+    margin: 0px;
+}
+h1, h2, h3, h4, h5, h6, p, a, li {
+    font-family: 'Poppins', sans-serif;
 }
 
 nav {
@@ -37,12 +40,46 @@ nav a {
 
 #firstSection {
     background-color: #110902;
-    color: #F89500;
+    color: #fff;/*#F89500;*/
     height: 60vh;
 }
 
-#secondSection {
+.section {
     background-color: rgb(255, 255, 255);
     color: #110902;
     height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.section img {
+    max-height: 80vh;
+    width: 30vw;
+    object-fit: contain;
+}
+
+.section .sectionText {
+    padding: 0px 10vw 0px 10vw;
+}
+/*
+#thirdSection img {
+    max-height: 80vh;
+    width: 30vw;
+    object-fit: contain;
+}
+
+#thirdSection .sectionText {
+    padding: 0px 10vw 0px 10vw;
+}
+
+#fourthSection img {
+    max-height: 80vh;
+    width: 30vw;
+    object-fit: contain;
+}
+
+#fourthSection .sectionText {
+    padding: 0px 10vw 0px 10vw;
+}
+    */
