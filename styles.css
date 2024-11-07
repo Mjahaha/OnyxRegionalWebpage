@@ -36,6 +36,7 @@ nav a {
     max-height: 60px; /* Adjust the image height to fit within the navbar */
     width: auto; /* Maintain aspect ratio */
     object-fit: contain;
+    margin: 0 20px;
 }
 
 #firstSection {
