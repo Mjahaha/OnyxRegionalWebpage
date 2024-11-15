@@ -48,18 +48,68 @@ nav a {
 .section {
     background-color: rgb(255, 255, 255);
     color: #110902;
-    height: 80vh;
+    min-height: 80vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 
 .section img {
-    max-height: 80vh;
+    max-height: 40vh;
     width: 30vw;
     object-fit: contain;
 }
 
 .section .sectionText {
     padding: 5px 10vw 5px 10vw;
+}
+
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    nav div {        
+        width: 100%; /* Adjust as needed */
+        height: 100%; /* Adjust as needed */
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center the image within the div */
+    }
+
+    .logo {
+        width: 100%; /* Adjust as needed */
+        height: 100%; /* Adjust as needed */
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center the image within the div */
+    }
+    
+
+    .logo img {
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+        object-fit: cover; /* Ensure the image covers the entire div */
+    }
+
+    nav h3 {
+        display: none;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .section {
+        display: block;
+    }
+
+    .section img {
+        display: none;
+    }
 }
