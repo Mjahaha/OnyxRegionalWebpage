@@ -52,7 +52,6 @@ nav a {
 .section {
     background-color: rgb(255, 255, 255);
     color: #110902;
-    min-height: 80vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
