@@ -55,19 +55,19 @@ nav a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 8vw;
 }
 
 .section img {
     max-height: 40vh;
-    width: 30vw;
+    width: auto;
     object-fit: contain;
+    border-radius: 15%;
 }
 
 .section .sectionText {
     padding: 5px 10vw 5px 10vw;
 }
-
 
 /* Media queries */
 @media screen and (max-width: 768px) {
